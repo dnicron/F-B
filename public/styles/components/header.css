@@ -1,0 +1,51 @@
+.header {
+  background-color: var(--background-color);
+  padding-block: 20px;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+  display: block;
+  margin-right: 80px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: auto;
+}
+.header__menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 62px;
+}
+
+.header__menu-link {
+  color: var(--primary-color);
+  font-family: 'Open Sans';
+  font-size: var(--font-base);
+}
+.header__buttons {
+  color: var(--primary-green);
+  display: flex;
+  gap: 67px;
+}
+
+.header__btn {
+  color: var(--primary-green);
+  transition: all 0.3s ease-in;
+}
+
+.header__btn:hover {
+  color: var(--hover-color);
+}
+
+.header__btn svg path {
+  stroke: currentColor;
+}
