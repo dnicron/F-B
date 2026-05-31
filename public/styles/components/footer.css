@@ -1,0 +1,23 @@
+.footer__socials {
+  background-color: #0b1919;
+  padding-block: 21px;
+}
+
+.socials-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.footer__date {
+  background-color: var(--background-color);
+  color: var(--disabled-color);
+  font-size: 12px;
+  padding-block: 3px;
+}
+
+.footer__meta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

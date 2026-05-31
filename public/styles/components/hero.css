@@ -25,18 +25,16 @@
   font-size: var(--font-base);
   line-height: 150%;
 }
-.hero__link {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  color: var(--primary-green);
-  transition: all 0.1s ease;
-}
 
-.hero__link svg path {
-  fill: currentColor;
-}
+@media screen and (max-width: 375px) {
+  .hero {
+    padding-block: 70px;
+  }
+  .hero__title {
+    font-size: var(--font-2xl) !important;
+  }
 
-.hero__link:hover {
-  color: var(--hover-color);
+  .hero__text {
+    display: none;
+  }
 }

@@ -2,8 +2,7 @@
   background-color: var(--background-color);
   padding-bottom: 60px;
 }
-.container {
-}
+
 .artefacts__title {
   font-size: var(--font-2xl);
   margin-bottom: 30px;
@@ -12,18 +11,16 @@
   display: grid;
   grid-template-columns: 3fr 1fr;
   gap: 30px;
-  height: 500px;
+  min-height: 500px;
 }
 .artefacts__collage {
   background-color: black;
-  height: 100%;
 }
 .artefacts__info {
   display: flex;
   flex-direction: column;
   background-color: var(--primary-green);
   padding: 16px 16px 20px;
-  height: 100%;
 }
 
 .artefacts__info-title {
@@ -37,11 +34,4 @@
   font-size: var(--font-base);
   line-height: 150%;
   color: #506829;
-}
-
-.artefacts__info-link {
-  align-items: center;
-  display: flex;
-  margin-top: auto;
-  gap: 8px;
 }

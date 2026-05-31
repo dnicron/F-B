@@ -7,6 +7,14 @@
 @import './components/hero.css';
 @import './components/cards.css';
 @import './components/artefacts.css';
+@import './components/help.css';
+@import './components/footer.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 a {
   text-decoration: none;
@@ -31,4 +39,10 @@ span,
 a {
   font-family: 'Open Sans';
   font-weight: 400;
+}
+
+@media (max-width: 380px) {
+  * {
+    /* outline: 1px solid red; */
+  }
 }

@@ -1,0 +1,52 @@
+.help {
+  background-image:
+    linear-gradient(#1d2f30dd, #1d2f30dd), url(/public/images/background-2.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  padding-block: 60px;
+}
+
+.help__title {
+  margin-bottom: 16px;
+  font-size: var(--font-2xl);
+  line-height: 150%;
+}
+.help__text {
+  color: var(--primary-color);
+  line-height: 150%;
+  font-size: var(--font-base);
+  margin-bottom: 24px;
+}
+.help__form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  max-width: 350px;
+}
+.form__field {
+  position: relative;
+  width: 100%;
+}
+
+.form__label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+@media (max-width: 380px) {
+  .help {
+    padding-block: 50px;
+  }
+  .help__title {
+    line-height: 100%;
+  }
+}
